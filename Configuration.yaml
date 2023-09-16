@@ -94,6 +94,17 @@ proxies:
       path: /vpnjantit
       headers:
         Host: m.mobilelegends.com
+
+  - name: 🇸🇬SS-MLBB5
+    type: ss
+    server: sg01.proxysocks.xyz
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: MWQ1Z
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: m.mobilelegends.com
         
   - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
@@ -142,6 +153,7 @@ proxy-groups:
       - 🇹🇭TH-MLBB2
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
+      - 🇸🇬SS-MLBB5
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
@@ -158,6 +170,7 @@ proxy-groups:
       - 🇹🇭TH-MLBB2
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
+      - 🇸🇬SS-MLBB5
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -169,6 +182,7 @@ proxy-groups:
       - 🇹🇭TH-MLBB2
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
+      - 🇸🇬SS-MLBB5
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -180,6 +194,7 @@ proxy-groups:
       - 🇹🇭TH-MLBB2
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
+      - 🇸🇬SS-MLBB5
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -191,6 +206,7 @@ proxy-groups:
       - 🇹🇭TH-MLBB2
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
+      - 🇸🇬SS-MLBB5
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
