@@ -105,6 +105,14 @@ proxies:
     plugin-opts:
        mode: http
        host: m.mobilelegends.com
+
+  - name: 🇸🇬TJ-MLBB6
+    type: trojan
+    server: sgt-1.opensvr.net
+    port: 443
+    password: opentunnel.net-breulp
+    udp: true
+    sni: m.mobilelegends.com
         
   - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
@@ -154,6 +162,7 @@ proxy-groups:
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
       - 🇸🇬SS-MLBB5
+      - 🇸🇬TJ-MLBB6
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
@@ -171,6 +180,7 @@ proxy-groups:
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
       - 🇸🇬SS-MLBB5
+      - 🇸🇬TJ-MLBB6
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -183,6 +193,7 @@ proxy-groups:
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
       - 🇸🇬SS-MLBB5
+      - 🇸🇬TJ-MLBB6
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -195,6 +206,7 @@ proxy-groups:
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
       - 🇸🇬SS-MLBB5
+      - 🇸🇬TJ-MLBB6
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -207,6 +219,7 @@ proxy-groups:
       - 🇭🇰HK-MLBB3
       - 🇺🇲USA-MLBB4
       - 🇸🇬SS-MLBB5
+      - 🇸🇬TJ-MLBB6
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
