@@ -97,10 +97,10 @@ proxies:
 
   - name: 🇸🇬SS-MLBB5
     type: ss
-    server: sg01.proxysocks.xyz
+    server: sg-ss.sshmax.xyz
     port: 8139
     cipher: chacha20-ietf-poly1305
-    password: MWQ1Z
+    password: MDJhZDlk
     plugin: obfs
     plugin-opts:
        mode: http
@@ -110,7 +110,7 @@ proxies:
     type: trojan
     server: sgt-1.opensvr.net
     port: 443
-    password: opentunnel.net-breulp
+    password: opentunnel.net-gsryip
     udp: true
     sni: m.mobilelegends.com
         
