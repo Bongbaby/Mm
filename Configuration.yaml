@@ -113,6 +113,7 @@ proxies:
     password: opentunnel.net-gsryip
     udp: true
     sni: m.mobilelegends.com
+    alpn:
         
   - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
