@@ -118,7 +118,7 @@ proxies:
     sni: m.mobilelegends.com
     alpn:
 
-  - name: 🇸🇬TJ-MLBB6
+  - name: 🇸🇬TJ-MLBB7
     type: trojan
     server: sg2-trojan.bonds.id
     port: 443
@@ -179,6 +179,7 @@ proxy-groups:
       - 🇺🇲USA-MLBB4
       - 🇸🇬SS-MLBB5
       - 🇸🇬TJ-MLBB6
+      - 🇸🇬TJ-MLBB7
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
