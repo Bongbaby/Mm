@@ -111,7 +111,10 @@ proxies:
     server: sgt-1.opensvr.net
     port: 443
     password: opentunnel.net-gsryip
+    ws: false
     udp: true
+    skip-cert-verify: true
+    ws-path: /
     sni: m.mobilelegends.com
     alpn:
         
