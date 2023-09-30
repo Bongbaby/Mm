@@ -117,6 +117,18 @@ proxies:
     ws-path: /
     sni: m.mobilelegends.com
     alpn:
+
+  - name: 🇸🇬TJ-MLBB6
+    type: trojan
+    server: sg2-trojan.bonds.id
+    port: 443
+    password: dc0670a0-5863-11ee-a7fa-1239d0255272
+    ws: false
+    udp: true
+    skip-cert-verify: true
+    ws-path: /howdy
+    sni: m.mobilelegends.com
+    alpn:
         
   - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
