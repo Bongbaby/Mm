@@ -64,11 +64,11 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
-  - name: 🇰🇭V2-MLBB2
-    server: 220.158.233.184
+  - name: 🇸🇬V2-MLBB3
+    server: sg9.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: 4930a92c-9e31-11ee-affe-f7ee8cbc11aa
+    uuid: f92bc7ec-9f50-11ee-b78e-00163e22c969
     alterId: 0
     cipher: auto
     tls: false
@@ -91,6 +91,7 @@ proxy-groups:
     proxies:
       - 🇰🇭V2-MLBB1
       - 🇰🇭V2-MLBB2
+      - 🇸🇬V2-MLBB3
   - name: PROXY 🚀
     type: select
     proxies:
